@@ -10,6 +10,16 @@ A failure counts only if the vehicle that acts on V2X messages crashes **and** a
 *ground-truth twin* that receives perfect information stays safe. LAST-V2X keeps driver behavior
 fixed. This project adds **behavioral uncertainty** and compares how different methods propose tests.
 
+### CARLA replay: one verified failure
+
+![CARLA replay: V2X ego vs ground-truth twin](figures/carla_replay.gif)
+
+*Scenario `S1_llm3_001_t` (GPT-4o hypothesis + timing search), replayed in CARLA Town05 from above the junction.
+**Blue** = ego, **red** = crossing car. **(1)** The V2X ego's messages are dropped at first radio contact,
+so it never builds a track of the crossing car, keeps driving and is hit. **(2)** The ground-truth twin, in
+the same scene with correct information, brakes before the junction and lets the red car pass.
+[Full video (MP4)](figures/carla_replay.mp4)*
+
 ![Results over 5 seeds](figures/results_5seeds.png)
 
 ## Setup
