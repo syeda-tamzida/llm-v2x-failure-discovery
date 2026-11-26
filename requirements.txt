@@ -1,0 +1,3 @@
+matplotlib
+openai>=1.0        # only needed for --llm openai (OpenAI API or a local Qwen via Ollama/vLLM)
+# carla==0.9.15    # install the version that matches your CARLA server; see README step 3

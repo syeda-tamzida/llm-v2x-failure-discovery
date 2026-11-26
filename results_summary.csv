@@ -1,0 +1,4 @@
+method,seeds,verified_per_seed_mean,verified_per_seed_sd,non_attributable_per_seed,screen_confirmed_in_carla,distinct_scene_mechanisms,verified_by_scene,per_seed
+random,5,1,1.0,0.2,-,5,"{""S1"": 2, ""S2"": 1, ""S3"": 2}","[2, 0, 2, 0, 1]"
+random_hybrid,5,4.6,1.14,2,23/31,19,"{""S1"": 8, ""S2"": 13, ""S3"": 2}","[5, 5, 6, 3, 4]"
+llm3,5,5.4,0.89,0.6,27/28,11,"{""S1"": 24, ""S2"": 1, ""S3"": 2}","[5, 5, 5, 5, 7]"
