@@ -92,6 +92,10 @@ data/seed_runs/          raw CARLA run logs for the 5 reported seeds
 figures/                 figures in this README
 ```
 
+## License
+
+MIT. See [LICENSE](LICENSE).
+
 ## Author
 
 Syeda Tamzida Akter · [syeda-tamzida.github.io](https://syeda-tamzida.github.io/)
