@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Grounded LLM Causal Hypotheses for Discovering Communication-Induced V2X Safety Failures in CARLA"
+authors:
+  - family-names: "Akter"
+    given-names: "Syeda Tamzida"
+repository-code: "https://github.com/syeda-tamzida/llm-v2x-failure-discovery"
+license: MIT
+date-released: 2026-11-25
+keywords:
+  - V2X
+  - connected vehicles
+  - CARLA
+  - large language models
+  - safety testing
